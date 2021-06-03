@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: rgba(0, 238, 255, 0.849);
+}
+
+.section {
+    position: relative;
+    width: 400px;
+    height: 500px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.342);
+    margin: 50px auto;
+    background: white;
+    border-radius: 5px;
+    font-family: 'Amatic SC', cursive;
+}
+
+h1 {
+    text-align: center;
+    padding: 5px 0;
+    text-transform: uppercase;
+    margin: 20px;
+    background: white;
+    color: tomato;
+    text-shadow: 4px 4px 4px black;
+    font-weight: bold;
+}
+
+p {
+    width: 80%;
+    height: 50px;
+    text-align: center;
+    /* padding-top: 5px; */
+    font-size: 2rem;
+    margin-left: 40px;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: 1px solid red;
+    background: white;
+    font-family: 'Amatic SC', cursive;
+    text-shadow: 4px 4px 4px black;
+}
+
+.section img {
+    margin-top: 30px;
+    position: absolute;
+    width: 40%;
+    left: 29%;
+    background: white;
+    border-radius: 100%;
+    object-fit: cover;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.144);
+}
+
+.section .switch {
+    border: none;
+    width: 80%;
+    height: 50px;
+    margin-left: 40px;
+    border-radius: 5px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.116);
+    margin-top: 220px;
+    text-transform: uppercase;
+    background: gray;
+    font-family: 'Amatic SC', cursive;
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: blue;
+    text-shadow: 4px 4px 4px black;
+}
+
+.section .switch:hover {
+    background: linear-gradient(100deg, rgb(55, 0, 255), white);
+    color: white;
+    transition: .5s;
+}
+
+.section .convert {
+    border: none;
+    width: 35%;
+    height: 50px;
+    margin-left: 40px;
+    border-radius: 5px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.11);
+    margin-top: 20px;
+    text-transform: uppercase;
+    background: gray;
+    font-family: 'Amatic SC', cursive;
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: blue;
+    text-shadow: 4px 4px 4px black;
+}
+
+.section .convert:hover {
+    background: linear-gradient(100deg, rgb(55, 0, 255), white);
+    color: white;
+    transition: .5s;
+}
+
+.section input {
+    border: none;
+    outline: none;
+    width: 40%;
+    height: 50px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.342);
+    margin-left: 40px;
+    border-radius: 5px;
+    border: 1px solid red;
+    /* margin-top: 50px; */
+    margin-left: 15px;
+    text-transform: uppercase;
+    text-align: center;
+    background: white;
+    font-family: 'Amatic SC', cursive;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
